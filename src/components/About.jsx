@@ -1,4 +1,3 @@
-import React from 'react';
 import { Target, Zap, GraduationCap } from 'lucide-react';
 
 const About = () => {

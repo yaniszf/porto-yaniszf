@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Globe, Layout, Database, Server, Smartphone, Code2 } from 'lucide-react';
 
@@ -17,22 +17,22 @@ const Services = () => {
     {
       title: 'Laravel Applications',
       desc: 'Robust, secure, and scalable enterprise applications built with the Laravel framework.',
-      icon: <Database />
+      icon: <Server />
     },
     {
       title: 'Modern Web Applications',
       desc: 'High-performance front-end experiences using React and Next.js.',
-      icon: <Server />
+      icon: <Code2 />
     },
     {
       title: 'Custom Business Software',
       desc: 'Tailor-made software solutions to solve unique business challenges.',
-      icon: <Code2 />
+      icon: <Smartphone />
     },
     {
       title: 'Database Architecture',
       desc: 'Optimized data structures and management for complex institutional data.',
-      icon: <Smartphone />
+      icon: <Database />
     }
   ];
 

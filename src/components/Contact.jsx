@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, MessageSquare, Briefcase, Code } from 'lucide-react';
 
 const Contact = () => {
@@ -14,7 +13,7 @@ const Contact = () => {
           </p>
           
           <div className="contact-buttons">
-            <a href="mailto:hello@yanis.dev" className="btn btn-primary lg">
+            <a href="mailto:yaniszf96@gmail.com" className="btn btn-primary lg">
               <Mail size={20} /> Email Me
             </a>
             <a href="https://wa.me/yournumber" className="btn btn-glass lg">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TechStack = () => {
   const techs = [
     'Laravel', 'React', 'Next.js', 'Node.js', 'TypeScript', 'MySQL', 'PostgreSQL', 'Docker', 'GitHub', 'Tailwind', 'Python', 'Redis'
